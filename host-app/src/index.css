@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ant-card-meta {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ant-card .ant-card-meta-avatar {
+    padding-inline-end: 0px;
+}
+
+.ant-card-meta-detail {
+    width: 100%;
+
+}
